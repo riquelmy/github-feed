@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f6f8fa;
+}
+
+.superior {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+
+.superior_name {
+    color: #1f2328;
+    font-weight: bold;
+}
+
+.superior_event, .superior_time, .superior_circle {
+    color: #7f868e;
+}
+
+.superior * {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.superior_photo {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.component {
+    display: flex;
+    flex-direction: column
+}
+/* This is the inferior part of the component */
+
+.inferior {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d7dde3;
+    /* box-shadow: 31px 29px 32px -31px rgba(0,0,0,1);
+    -webkit-box-shadow: 31px 29px 32px -31px rgba(0,0,0,1);
+    -moz-box-shadow: 31px 29px 32px -31px rgba(0,0,0,1); */
+    
+}
+
+.inferior * {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.inferior_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.inferior_name, .inferior_repname {
+    font-weight: bold;
+}
+.inferior_top * {
+    margin-right: 10px;
+}
+.inferior_bottom {
+    display: flex;
+    flex-direction: row;
+}
+.inferior_shape {
+    background-color: #00b4ab;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #088f88;
+}
+
+.inferior_photo {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.inferior_bottom * {
+
+    margin-right: 5px;
+}
